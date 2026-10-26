@@ -1,0 +1,14 @@
+imagine que você foi contratado por uma pequena loja de eletrônicos. O proprietário controla os produtos em um caderno, mas está tendo dificuldades 
+para saber o que tem em estoque, quais produtos estão acabando e quanto dinheiro possui em mercadorias.
+
+Sua missão: desenvolver um programa em Python que permita ao proprietário gerenciar os produtos da loja.
+
+Requisitos:
+
+- Cadastrar produtos com nome, preço e quantidade.
+- Consultar os produtos cadastrados.
+- Atualizar a quantidade quando chegarem novas mercadorias.
+- Remover produtos que não são mais vendidos.
+- Calcular o valor total do estoque.
+- Avisar quando um produto estiver com poucas unidades.
+- Impedir preços negativos e quantidades inválidas.
