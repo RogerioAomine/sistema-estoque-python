@@ -12,3 +12,50 @@ Requisitos:
 - Calcular o valor total do estoque.
 - Avisar quando um produto estiver com poucas unidades.
 - Impedir preços negativos e quantidades inválidas.
+
+
+começado desenvolvimento do sistema eu fui criand uma lista com uns item fixo como arroz e feijão com seus preços e quantidade
+com a lista já feita eu fui para o menu:
+
+
+estoque = [
+    {"Nome":"Arroz","Preço": 10.00, "Quantidade": 20},
+    {"Nome":"Feijão","Preço":20.00, "Quantidade": 2}
+    ]
+
+
+a lista fico assim de primeiro momento!
+
+o menu foi criado com um While para ele percorre e com estamos testando e desenvolvendo, para um menu sempre repetir
+e já criamos um input para podemos iniciar as escolhar de qual ele quer verificar e com os nomes das seguintes funções
+- verificar_estoque
+- baixo_estoque
+- adicionar_estoque
+- valor_total
+- menu
+
+a função Menu está tambem com um tratodo de error try: except ValuError se acaso for invalido se for str ele vai dar except e a mensagem
+Invalido, por favor digite numeros:
+
+
+# Na função verificar_estoque:
+Mostramos oq temos na lista, ele percorre cada item da lista pelo for e depois exibir na tela organizado
+
+# Na função baixo_estoque:
+aonde mostramos oq temos abaixo da media e quanto precisa para commprar ele vai percorre um for e 1 if qualidade < 10 ele vai mostra a lista
+que está abaixo da media
+
+# Função Adicionar_estoque
+nessa função nós iremos adicionar algum no estoque então criamos 3 input com 2 deles sendo int e float (numerico)
+após preenche tudo ele vai ler a lista inteira e mostra tudo que tem nela, ou seja se por acaso vc adicionou vai aparece 
+
+
+# Função valor_total
+Nessa função teremos um for para percorre a lista porem apenas dos item que falta, ele vai mostra quanto que temos que paga no item que falta
+para reabastere para deixa maior que 10
+
+até o momento foi realizado isso até o momento mais quero melhorar
+
+
+
+
